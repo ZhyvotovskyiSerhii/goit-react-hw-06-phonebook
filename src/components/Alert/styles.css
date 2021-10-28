@@ -1,0 +1,19 @@
+.alert {
+  background-color: red;
+  position: absolute;
+  right: 12px;
+  padding: 12px;
+  border-radius: 4px;
+  transform: translate(0%);
+  text-align: center;
+  color: white;
+}
+
+.alert-appear {
+  transform: translate(100%);
+}
+
+.alert-appear-active {
+  transform: translate(0%);
+  transition: all 250ms;
+}
